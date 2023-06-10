@@ -37,6 +37,7 @@ def send_data(data):
     server.connect((serverip, port))
     server.send(data.encode('utf-8'))
     data_server = server.recv(1024).decode('utf-8')
+    print('encode: ', data.encode('utf-8'))
     print('Server: ', data_server)
     server.close()
     

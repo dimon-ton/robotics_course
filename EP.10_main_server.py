@@ -1,5 +1,6 @@
 # servo specicfication
 # MG90s
+# test with raspberry pi pico
 
 from time import sleep
 from machine import Pin, PWM

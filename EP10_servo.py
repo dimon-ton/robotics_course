@@ -1,3 +1,5 @@
+# test with MG90s servo on raspberry pi pico
+
 from time import sleep
 from machine import Pin, PWM
 
